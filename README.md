@@ -1,4 +1,17 @@
-exceed_test
+Symfony3
 ===========
 
-A Symfony project created on August 26, 2016, 1:25 pm.
+
+##This is a test with Symfony3.
+
+####It implements:
+	- Etag with Listeners
+	- Auth with Listeners and based on fixed tokens
+	- Json responses
+	- CRUD functionality
+	- ManyToMany Bi Directional & ManyToOne doctrine2 relations
+	- Some forms
+ 
+####To install
+   * Set ownership and permissions in var/cache, you can do chmod -R 777 var/cache
+   * Run php bin/console doctrine:schema:update --force 
