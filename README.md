@@ -14,4 +14,5 @@ Symfony3
  
 ####To install
    * Set ownership and permissions in var/cache, you can do chmod -R 777 var/cache
+   * Set your database connection in app/config/parameters.yml
    * Run php bin/console doctrine:schema:update --force 
